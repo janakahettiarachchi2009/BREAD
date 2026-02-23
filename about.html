@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Dilshan Bakery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .bg-cream {
+            background-color: #FFFDF0;
+        }
+
+        .text-gold {
+            color: #D4AF37;
+        }
+
+        .bg-gold {
+            background-color: #D4AF37;
+        }
+    </style>
+</head>
+
+<body class="bg-cream text-gray-800">
+
+    <!-- Navigation -->
+    <nav
+        class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100 px-6 py-4 flex justify-between items-center">
+        <a href="index.html" class="text-2xl font-bold text-gray-900">Dilshan<span class="text-gold">Bakery</span></a>
+        <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-widest text-gray-700">
+            <a href="index.html" class="hover:text-gold transition-colors">Home</a>
+            <a href="menu.html" class="hover:text-gold transition-colors">Menu</a>
+            <a href="about.html" class="text-gold border-b-2 border-gold pb-1">Our Story</a>
+            <a href="contact.html" class="hover:text-gold transition-colors">Contact</a>
+        </div>
+        <button class="bg-gold text-white px-6 py-2 rounded-full font-semibold shadow-lg hover:bg-opacity-90">Order
+            Now</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-40 pb-20 bg-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 relative z-10 text-center">
+            <h1 class="text-5xl md:text-7xl text-gray-900 mb-6">A Journey of Flour <br> and <span
+                    class="italic text-gold">Passion</span></h1>
+            <p class="text-gray-500 max-w-2xl mx-auto text-lg leading-relaxed">From a small kitchen to a beloved
+                community bakery, our story is baked into every loaf we create.</p>
+        </div>
+        <div class="absolute top-0 right-0 w-64 h-64 bg-gold rounded-full blur-3xl opacity-10"></div>
+    </header>
+
+    <!-- Our Values -->
+    <section class="py-24">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+            <div class="relative">
+                <img src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&q=80&w=800"
+                    alt="Baking Process" class="rounded-3xl shadow-2xl z-10 relative">
+                <div class="absolute -top-10 -left-10 w-40 h-40 bg-gold/20 rounded-full blur-2xl"></div>
+            </div>
+            <div>
+                <h2 class="text-4xl text-gray-900 mb-8">Founded on Excellence</h2>
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-2xl mb-2 text-gold font-bold">The Beginning</h3>
+                        <p class="text-gray-600 leading-relaxed">Dilshan Bakery started in 2010 with a simple mission:
+                            to bring authentic, high-quality artisanal bread to the local community. What began as a
+                            one-man operation has grown into a team of master bakers dedicated to their craft.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl mb-2 text-gold font-bold">Our Philosophy</h3>
+                        <p class="text-gray-600 leading-relaxed">We believe in the "Slow Baked" movement. No artificial
+                            preservatives, no shortcuts. Just simple ingredients, time-honored techniques, and a lot of
+                            heart.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl mb-2 text-gold font-bold">Community First</h3>
+                        <p class="text-gray-600 leading-relaxed">We are more than just a bakery; we are a gathering
+                            place. Every morning, the smell of fresh bread brings neighbors together, and that's the
+                            real magic of Dilshan Bakery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="bg-gray-900 py-20 text-white">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+            <div>
+                <span class="block text-5xl font-bold text-gold mb-2">15+</span>
+                <span class="text-gray-400 uppercase tracking-widest text-sm font-medium">Years of Experience</span>
+            </div>
+            <div>
+                <span class="block text-5xl font-bold text-gold mb-2">50k+</span>
+                <span class="text-gray-400 uppercase tracking-widest text-sm font-medium">Loaves Baked</span>
+            </div>
+            <div>
+                <span class="block text-5xl font-bold text-gold mb-2">100%</span>
+                <span class="text-gray-400 uppercase tracking-widest text-sm font-medium">Natural Ingredients</span>
+            </div>
+            <div>
+                <span class="block text-5xl font-bold text-gold mb-2">24/7</span>
+                <span class="text-gray-400 uppercase tracking-widest text-sm font-medium">Freshness Guaranteed</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-12 border-t border-gray-100">
+        <div
+            class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
+            <div>
+                <h3 class="text-2xl font-bold">Dilshan<span class="text-gold">Bakery</span></h3>
+                <p class="text-gray-400 text-sm">Crafting excellence since 2010.</p>
+            </div>
+            <div class="flex gap-8 text-sm font-medium text-gray-600 uppercase tracking-widest">
+                <a href="index.html" class="hover:text-gold transition-colors">Home</a>
+                <a href="menu.html" class="hover:text-gold transition-colors">Menu</a>
+                <a href="about.html" class="hover:text-gold transition-colors">About</a>
+                <a href="contact.html" class="hover:text-gold transition-colors">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

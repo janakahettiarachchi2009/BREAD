@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilshan Bakery | Freshly Baked Happiness</title>
+    <meta name="description"
+        content="Welcome to Dilshan Bakery - your destination for the finest breads, cakes, and pastries. Experience the art of premium baking.">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        .heading-font {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .bg-cream {
+            background-color: #FFFDF0;
+        }
+
+        .text-gold {
+            color: #D4AF37;
+        }
+
+        .bg-gold {
+            background-color: #D4AF37;
+        }
+
+        .border-gold {
+            border-color: #D4AF37;
+        }
+    </style>
+</head>
+
+<body class="bg-cream text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/10 backdrop-blur-lg border-b border-white/20 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-bold text-white tracking-tight drop-shadow-lg">Dilshan<span
+                    class="text-gold">Bakery</span></a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-widest text-white">
+                <a href="index.html" class="hover:text-gold border-b-2 border-gold pb-1 transition-all">Home</a>
+                <a href="menu.html" class="hover:text-gold transition-colors">Menu</a>
+                <a href="about.html" class="hover:text-gold transition-colors">Our Story</a>
+                <a href="contact.html" class="hover:text-gold transition-colors">Contact</a>
+            </div>
+            <a href="menu.html"
+                class="bg-gold text-white px-6 py-2 rounded-full font-semibold shadow-lg hover:bg-[#B8860B] transition-all transform hover:scale-105 active:scale-95">Order
+                Now</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=2000"
+                alt="Dilshan Bakery Hero" class="w-full h-full object-cover brightness-50 scale-105 animate-pulse-slow">
+        </div>
+        <div class="relative z-10 text-center px-4 max-w-4xl">
+            <h1 class="text-5xl md:text-8xl text-white mb-6 leading-tight drop-shadow-2xl">Crafting Memories <br> <span
+                    class="text-gold italic">One Bite</span> at a Time</h1>
+            <p class="text-xl md:text-2xl text-white/90 mb-10 leading-relaxed font-light drop-shadow-lg">Experience the
+                authentic taste of tradition mixed with modern elegance.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-6">
+                <a href="menu.html"
+                    class="bg-gold text-white px-12 py-5 rounded-full text-xl font-bold shadow-2xl hover:bg-[#B8860B] transition-all transform hover:-translate-y-1">Explore
+                    Menu</a>
+                <a href="about.html"
+                    class="bg-white/10 backdrop-blur-md text-white border border-white/30 px-12 py-5 rounded-full text-xl font-bold hover:bg-white/20 transition-all">About
+                    Us</a>
+            </div>
+        </div>
+        <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-white/50 text-3xl">↓</div>
+    </header>
+
+    <!-- Featured Section -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="text-gold font-bold tracking-widest uppercase text-sm">Chef's Selection</span>
+                <h2 class="text-5xl text-gray-900 mt-4 mb-4">Our Signature Creations</h2>
+                <div class="w-24 h-1 bg-gold mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto italic">Handpicked favorites that define the Dilshan Bakery
+                    experience.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Item 1 -->
+                <div class="group cursor-pointer">
+                    <div class="overflow-hidden rounded-3xl mb-8 shadow-[0_20px_50px_rgba(212,175,55,0.15)] bg-white">
+                        <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=800"
+                            alt="Artisan Croissants"
+                            class="w-full h-96 object-cover group-hover:scale-110 transition-transform duration-700">
+                    </div>
+                    <h3 class="text-3xl mb-3 text-gray-900 group-hover:text-gold transition-colors">Artisan Croissants
+                    </h3>
+                    <p class="text-gray-500 mb-4 leading-relaxed line-clamp-2">Buttery, flaky layers of pure French
+                        tradition baked fresh every 4 hours.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-gold font-bold text-2xl">Rs. 450</span>
+                        <span class="text-gray-400 text-sm font-medium">★★★★★</span>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="group cursor-pointer">
+                    <div class="overflow-hidden rounded-3xl mb-8 shadow-[0_20px_50px_rgba(212,175,55,0.15)] bg-white">
+                        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&q=80&w=800"
+                            alt="Signature Cakes"
+                            class="w-full h-96 object-cover group-hover:scale-110 transition-transform duration-700">
+                    </div>
+                    <h3 class="text-3xl mb-3 text-gray-900 group-hover:text-gold transition-colors">Decadent Velvet</h3>
+                    <p class="text-gray-500 mb-4 leading-relaxed line-clamp-2">A symphony of dark chocolate and fresh
+                        forest berries for the ultimate celebration.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-gold font-bold text-2xl">Rs. 3,800</span>
+                        <span class="text-gray-400 text-sm font-medium">★★★★★</span>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="group cursor-pointer">
+                    <div class="overflow-hidden rounded-3xl mb-8 shadow-[0_20px_50px_rgba(212,175,55,0.15)] bg-white">
+                        <img src="https://images.unsplash.com/photo-1517433367423-c7e5b0f35086?auto=format&fit=crop&q=80&w=800"
+                            alt="Rustic Breads"
+                            class="w-full h-96 object-cover group-hover:scale-110 transition-transform duration-700">
+                    </div>
+                    <h3 class="text-3xl mb-3 text-gray-900 group-hover:text-gold transition-colors">Rustic Sourdough
+                    </h3>
+                    <p class="text-gray-500 mb-4 leading-relaxed line-clamp-2">Slow-fermented for 24 hours to achieve
+                        that perfect tangy crunch and airy center.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-gold font-bold text-2xl">Rs. 850</span>
+                        <span class="text-gray-400 text-sm font-medium">★★★★★</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us -->
+    <section class="py-24 bg-cream overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-16">
+            <div class="md:w-1/2 relative">
+                <div class="w-full h-[600px] rounded-[40px] overflow-hidden shadow-2xl z-10 relative">
+                    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=800"
+                        alt="Bakery Process" class="w-full h-full object-cover">
+                </div>
+                <div class="absolute -bottom-10 -right-10 w-64 h-64 bg-gold rounded-full -z-0 opacity-20 blur-3xl">
+                </div>
+                <div class="absolute -top-10 -left-10 w-40 h-40 bg-gold rounded-full -z-0 opacity-10 animate-pulse">
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <span class="text-gold font-bold tracking-widest uppercase text-sm">Quality Matters</span>
+                <h2 class="text-5xl text-gray-900 mt-4 mb-8 leading-tight">Baked Daily with Love <br> and Organic
+                    Ingredients</h2>
+                <div class="space-y-8">
+                    <div class="flex items-start gap-6">
+                        <div
+                            class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-lg text-gold flex-shrink-0 text-2xl">
+                            🌾</div>
+                        <div>
+                            <h4 class="text-2xl font-bold mb-1">100% Organic Flour</h4>
+                            <p class="text-gray-500 text-lg">We source only the finest non-GMO grains for our breads
+                                from local farmers.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-6">
+                        <div
+                            class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-lg text-gold flex-shrink-0 text-2xl">
+                            🥖</div>
+                        <div>
+                            <h4 class="text-2xl font-bold mb-1">Traditional Methods</h4>
+                            <p class="text-gray-500 text-lg">No shortcuts. We use time-honored techniques for authentic,
+                                soulful flavor.</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="about.html"
+                    class="inline-block mt-12 bg-gray-900 text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-gray-800 transition-all shadow-xl">Read
+                    Our Full Story</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-gray-800 pb-12">
+            <div class="col-span-1 md:col-span-2">
+                <h3 class="text-3xl font-bold mb-6">Dilshan<span class="text-gold">Bakery</span></h3>
+                <p class="text-gray-400 max-w-sm leading-relaxed mb-6">Bringing the finest artisanal baking to your
+                    doorstep since 2010. Quality, passion, and tradition in every bite.</p>
+                <div class="flex gap-4">
+                    <a href="#"
+                        class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gold transition-colors">FB</a>
+                    <a href="#"
+                        class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gold transition-colors">IG</a>
+                    <a href="#"
+                        class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gold transition-colors">TW</a>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold mb-6 text-gold uppercase tracking-widest">Quick Links</h4>
+                <ul class="space-y-4 text-gray-400">
+                    <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+                    <li><a href="menu.html" class="hover:text-white transition-colors">Our Menu</a></li>
+                    <li><a href="about.html" class="hover:text-white transition-colors">About Us</a></li>
+                    <li><a href="contact.html" class="hover:text-white transition-colors">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold mb-6 text-gold uppercase tracking-widest">Contact Info</h4>
+                <ul class="space-y-4 text-gray-400">
+                    <li>123 Bakery Street, Colombo, Sri Lanka</li>
+                    <li>+94 11 234 5678</li>
+                    <li>hello@dilshanbakery.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 pt-8 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Dilshan Bakery. Designed with ❤️ for excellence.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
